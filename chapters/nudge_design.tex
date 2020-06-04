@@ -82,6 +82,11 @@ The digital nudge intervention was designed to provide health information relate
 Applying information about health effects coheres with both the objectives of the training center, as they aim to promote physical activity, and the definition of nudging, that should support good choices for individuals best interest. As far as consensus research can gather, physical activity is in the best interest of the individual as well as the society. 
 The presented knowledge is based on multiple reports and expenses from across the world and has been endorsed by international organizations like WHO and national organizations like FHI and Helsedirektoratet. The latter, currently has the leading role of informing (but also motivating?) Norwegian residents about physical activity. Basing the nudges on such information also contributes to making the information more available, which can be an important step towards reducing inactivity.
 
+\begin{figure}
+    \includegraphics[width=1\textwidth]{images/Nudger.png}
+    \caption{Overview of health information that was broadcasted in the digital nudge intervention.}\label{fig:my_label} 
+\end{figure}
+
 \textbf{Need for tailoring, but how?}
 %kanskje en del av introduction 
 We aware of the need for tailoring content, and that is also why we are testing this out. We want to gather insight on what should be taken into consideration when tailoring digital nudges. As the review implies, digital nudging is a comprehensive concept, consisting of many design aspects. As the research questions reflects we are approaching how the framing effect and push notification as delivery method, affects users perception (hence also incentives effect), but we also gather insights on the role of such content (health information).  
@@ -89,7 +94,7 @@ We aware of the need for tailoring content, and that is also why we are testing 
 %People who do not enjoy physical activity will justify the behaviour; Ved å presentere helseffekter kan det skape kognitiv dissonanse. Som vil si at for negative helseeffekter: kan det får en person til å trene fordi de har en intensjon om å ha en sunn helse og ønsker å unngå å ha høyere risiko for å bli syk. Positive helseeffekter: kan få dem som ikke liker å trene til å trene fordi den "rettferdiggjør" en atferd? 
 
 \subsection{Randomization and broadcast plan}
-16 distinct nudges was randomly distributed over a period of 30 days. As timing were not a desired investigation objective, the broadcast of the nudges was randomized, but still within convenient time frames (morning 08-10, noon 12-15, evening 18-20). 
+16 distinct nudges was randomly distributed over a period of 30 days. As timing were not a desired investigation objective, the broadcast of the nudges was randomized, but still within convenient time frames (morning 08-10, noon 12-15, evening 18-20). The plan for broadcasting can be found in Appendix 
 
 \subsection{Technical implementation}
 The nudges were implemented in Sats' own developed CMS (content management system) that allows for publishing content through their app. The CMS communicates with their service platform delivered by Microsoft Azure. Further the service platform communicates with Google Firebase, which provides messaging through cloud, and makes it possible to send notifications to any operating system. Google Firebase communicates with users Device ID (users smartphone) and delivers notifications to operating system on users devices. The nudges was appeared as push notifications on users locked home screens, but were also presented as a in-app notification when opening the app. 
